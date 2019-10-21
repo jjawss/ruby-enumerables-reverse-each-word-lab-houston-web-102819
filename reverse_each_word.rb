@@ -1,6 +1,6 @@
 def reverse_each_word(string)
   return string.split
-  puts string
+  p string
 end
 #=> ["Hello", "there", "and", "how", "are", "you?"]
 
