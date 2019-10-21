@@ -6,6 +6,7 @@ reverse_each_word("Hello there, and how are you?").map do |string|
   counter = 0 
   while string[counter]
     string[counter] = string[counter*-1]
+    counter+=1
   end
 end
   
