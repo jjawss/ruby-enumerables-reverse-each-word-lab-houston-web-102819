@@ -5,10 +5,7 @@ end
 
 p reverse_each_word("Hello there, and how are you?").each do |word|
   counter = word.length-2  
-  while word[counter]
-    
-    
+  word.reverse
   end
-end
 
 # << to append to a string
