@@ -3,7 +3,7 @@ def reverse_each_word(string)
 end
 #=> ["Hello", "there", "and", "how", "are", "you?"]
 
-reverse_each_word("Hello there, and how are you?").map do |word|
+reverse_each_word("Hello there, and how are you?").collect do |word|
   word.reverse
 end
 
