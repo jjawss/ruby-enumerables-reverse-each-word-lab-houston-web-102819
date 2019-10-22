@@ -3,9 +3,8 @@ def reverse_each_word(string)
 end
 #=> ["Hello", "there", "and", "how", "are", "you?"]
 
-reverse_each_word("Hello there, and how are you?").each do |word|
-  counter = word.length-2  
+reverse_each_word("Hello there, and how are you?").map do |word|
   p word.reverse
-  end
+end
 
 # << to append to a string
