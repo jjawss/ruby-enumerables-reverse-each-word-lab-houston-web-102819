@@ -4,3 +4,5 @@ def reverse_each_word(string)
   end
   p string.join(" ")
 end  
+
+reverse_each_word()
