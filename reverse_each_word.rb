@@ -3,5 +3,5 @@ def reverse_each_word(string)
 end
 #=> ["Hello", "there", "and", "how", "are", "you?"]
 
-reverse_each_word("Hello there, and how are you?").reverse_each {|word| }
+p reverse_each_word("Hello there, and how are you?").reverse_each {|word| }
   
